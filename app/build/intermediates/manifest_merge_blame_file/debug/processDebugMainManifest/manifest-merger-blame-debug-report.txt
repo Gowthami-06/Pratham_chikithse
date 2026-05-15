@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prathamchikitse"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:108-169
+11-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:125-167
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:169-242
+12-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:186-240
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:242-317
+13-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:259-315
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\f5c43335514e28b1b676f3ae7c58602a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.prathamchikitse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\f5c43335514e28b1b676f3ae7c58602a\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\f5c43335514e28b1b676f3ae7c58602a\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.prathamchikitse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\f5c43335514e28b1b676f3ae7c58602a\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\f5c43335514e28b1b676f3ae7c58602a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:317-1273
+22        android:allowBackup="true"
+22-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:330-356
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\f5c43335514e28b1b676f3ae7c58602a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:357-391
+27        android:label="@string/app_name"
+27-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:392-424
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:425-470
+29        android:supportsRtl="true"
+29-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:471-497
+30        android:testOnly="true"
+31        android:theme="@style/Theme.PrathamChikitse"
+31-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:498-542
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:543-578
+33        <activity
+33-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:579-848
+34            android:name="com.prathamchikitse.SplashActivity"
+34-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:589-619
+35            android:exported="true"
+35-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:620-643
+36            android:theme="@style/Theme.PrathamChikitse.Splash" >
+36-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:644-695
+37            <intent-filter>
+37-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:696-837
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:711-762
+38-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:719-760
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:762-821
+40-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:772-819
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:848-913
+44            android:name="com.prathamchikitse.MainActivity"
+44-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:858-886
+45            android:exported="false" />
+45-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:887-911
+46        <activity
+46-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:913-1032
+47            android:name="com.prathamchikitse.EmergencyDetailActivity"
+47-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:923-962
+48            android:exported="false"
+48-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:963-987
+49            android:parentActivityName="com.prathamchikitse.MainActivity" />
+49-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:988-1030
+50        <activity
+50-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1032-1150
+51            android:name="com.prathamchikitse.HospitalFinderActivity"
+51-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1042-1080
+52            android:exported="false"
+52-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1081-1105
+53            android:parentActivityName="com.prathamchikitse.MainActivity" />
+53-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1106-1148
+54        <activity
+54-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1150-1259
+55            android:name="com.prathamchikitse.AboutActivity"
+55-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1160-1189
+56            android:exported="false"
+56-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1190-1214
+57            android:parentActivityName="com.prathamchikitse.MainActivity" />
+57-->C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\AndroidManifest.xml:1:1215-1257
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\76c200fee7f3d382ba0bb6f89f5b11b9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\76c200fee7f3d382ba0bb6f89f5b11b9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.prathamchikitse.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\76c200fee7f3d382ba0bb6f89f5b11b9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\76c200fee7f3d382ba0bb6f89f5b11b9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\76c200fee7f3d382ba0bb6f89f5b11b9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\76c200fee7f3d382ba0bb6f89f5b11b9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\76c200fee7f3d382ba0bb6f89f5b11b9\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\20e7cdcd030a21d65ceab66b446f0e97\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\20e7cdcd030a21d65ceab66b446f0e97\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\20e7cdcd030a21d65ceab66b446f0e97\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gowthami S\.gradle\caches\9.0.0\transforms\9f06c1d2c989d76000127160c9eabf04\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

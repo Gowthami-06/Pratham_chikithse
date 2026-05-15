@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pratham Chikitse</string>
+    <string name="emergency_call">108</string>
+    <string name="audio_on">Ã°Å¸â€Å  Audio ON</string>
+    <string name="audio_off">Ã°Å¸â€â€¡ Audio OFF</string>
+    <string name="find_hospital">Ã°Å¸ÂÂ¥ Find Nearest Hospital</string>
+    <string name="call_ambulance">Ã°Å¸â€œÅ¾ CALL 108 Ã¢â‚¬â€œ National Ambulance</string>
+</resources>

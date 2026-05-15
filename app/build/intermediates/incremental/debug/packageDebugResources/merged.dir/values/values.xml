@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="audio_off">#616161</color>
+    <color name="audio_on">#1B5E20</color>
+    <color name="background">#F5F5F5</color>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="emergency_blue">#1565C0</color>
+    <color name="emergency_orange">#E64A19</color>
+    <color name="emergency_purple">#6A1B9A</color>
+    <color name="emergency_red">#D32F2F</color>
+    <color name="emergency_yellow">#F57F17</color>
+    <color name="hospital_green">#2E7D32</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <string name="app_name">Pratham Chikitse</string>
+    <string name="audio_off">Ã°Å¸â€â€¡ Audio OFF</string>
+    <string name="audio_on">Ã°Å¸â€Å  Audio ON</string>
+    <string name="call_ambulance">Ã°Å¸â€œÅ¾ CALL 108 Ã¢â‚¬â€œ National Ambulance</string>
+    <string name="emergency_call">108</string>
+    <string name="find_hospital">Ã°Å¸ÂÂ¥ Find Nearest Hospital</string>
+    <style name="Theme.PrathamChikitse" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="Theme.PrathamChikitse.Splash" parent="Theme.PrathamChikitse">
+        <item name="android:windowBackground">@color/emergency_red</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+</resources>

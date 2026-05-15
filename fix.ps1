@@ -1,0 +1,8 @@
+$d = "C:\Users\Gowthami S\Downloads\PrathamChikitse_AndroidProject\PrathamChikitse\app\src\main\res\drawable"
+$xml = '<?xml version="1.0" encoding="utf-8"?><vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="56dp" android:height="56dp" android:viewportWidth="24" android:viewportHeight="24"><path android:fillColor="#FFFFFF" android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z"/></vector>'
+$enc = New-Object System.Text.UTF8Encoding $false
+"ic_heart","ic_snake","ic_choking","ic_burn","ic_fracture","ic_bleeding","ic_drowning","ic_stroke","ic_seizure","ic_diabetes","ic_allergy","ic_heatstroke","ic_eye","ic_poison","ic_electric","ic_faint","ic_dog","ic_nosebleed","ic_asthma","ic_spinal" | ForEach-Object { [System.IO.File]::WriteAllText("$d\$_.xml", $xml, $enc) }
+[System.IO.File]::WriteAllText("$d\bg_emergency_banner.xml", '<?xml version="1.0" encoding="utf-8"?><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"><solid android:color="#B71C1C"/><corners android:radius="8dp"/></shape>', $enc)
+[System.IO.File]::WriteAllText("$d\bg_search.xml", '<?xml version="1.0" encoding="utf-8"?><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"><solid android:color="#FFFFFF"/><corners android:radius="8dp"/><stroke android:width="1dp" android:color="#BDBDBD"/></shape>', $enc)
+[System.IO.File]::WriteAllText("$d\bg_step_number.xml", '<?xml version="1.0" encoding="utf-8"?><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval"><solid android:color="#D32F2F"/></shape>', $enc)
+Write-Host "ALL FIXED"

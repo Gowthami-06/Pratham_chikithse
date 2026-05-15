@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/activity_splash.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/activity_hospital_finder.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/activity_hospital_finder.xml"
+    },
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/item_step_page.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/item_step_page.xml"
+    },
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/item_hospital.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/item_hospital.xml"
+    },
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/activity_about.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/item_emergency_tile.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/item_emergency_tile.xml"
+    },
+    {
+        "merged": "com.prathamchikitse.app-mergeDebugResources-31:/layout/activity_emergency_detail.xml",
+        "source": "com.prathamchikitse.app-main-34:/layout/activity_emergency_detail.xml"
+    }
+]

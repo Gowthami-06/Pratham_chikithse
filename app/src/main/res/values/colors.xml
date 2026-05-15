@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Emergency Colors -->
+    <color name="emergency_red">#D32F2F</color>
+    <color name="emergency_orange">#E64A19</color>
+    <color name="emergency_yellow">#F57F17</color>
+    <color name="emergency_blue">#1565C0</color>
+    <color name="emergency_purple">#6A1B9A</color>
+
+    <!-- UI Colors -->
+    <color name="hospital_green">#2E7D32</color>
+    <color name="audio_on">#1B5E20</color>
+    <color name="audio_off">#616161</color>
+    <color name="background">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Status Bar -->
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#FF6F00</color>
+</resources>
